@@ -1,0 +1,18 @@
+﻿/*int upperAge = 3;
+            var ownersWithPetsYoungerThan = 
+                from p in petInfos
+                where p.Age <= upperAge
+                select p.OwnerName;
+            
+            var petTypesGroup =from pet in petInfos
+                group pet by pet.PetType;
+
+            var petTypesMinAge =
+                from type in petTypesGroup
+                where type.Any(x => x.Age != null)
+                select type.Min(x => x.Age);
+
+            var petTypesDifference =
+                from type in petTypesGroup
+                where type.Count(x => x.Age != null) > 2
+                select type.Max(x => x.Age) - type.Min(x => x.Age);*/
